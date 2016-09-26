@@ -12,6 +12,11 @@ module BrNfe
 					def wsdl
 						"https://sefazweb.camacari.ba.gov.br/nfse/ws/recepcionarLoteRps?wsdl"
 					end
+					
+					def ssl_request?
+						true
+					end
+					
 					def method_wsdl
 						:recepcionar_lote_rps
 					end
