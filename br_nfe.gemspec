@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
 
 	gem.required_ruby_version = ['~> 2.1', '~> 2.2', '~> 2.3']
 
-	gem.add_dependency "rake", '~> 10'
+	gem.add_dependency "rake"
 	gem.add_dependency "activesupport"
 	gem.add_dependency "activemodel"
 	gem.add_dependency "nokogiri"
@@ -30,5 +30,5 @@ Gem::Specification.new do |gem|
 	gem.add_dependency "slim"
 	gem.add_dependency "slim-rails"
 	
-	gem.add_development_dependency "pry", '~> 0.10'
+	gem.add_development_dependency "pry"
 end
