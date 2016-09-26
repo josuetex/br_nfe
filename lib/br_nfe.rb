@@ -91,6 +91,15 @@ module BrNfe
 		autoload :Item
 		autoload :Rps
 		autoload :Base
+		
+		module Prodeb
+			extend ActiveSupport::Autoload
+			autoload :Base
+			module V2
+				extend ActiveSupport::Autoload				
+				autoload :RecepcaoLoteRps
+			end
+		end
 
 		module Betha
 			extend ActiveSupport::Autoload
