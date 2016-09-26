@@ -13,7 +13,7 @@ module BrNfe
 						"http://201.18.232.29/nfse/ws/recepcionarLoteRps?wsdl"
 					end
 					def method_wsdl
-						:enviar_lote_rps_envio
+						:recepcionar_lote_rps
 					end
 
 					def id_attribute?
