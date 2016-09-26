@@ -10,7 +10,7 @@ module BrNfe
 					end
 
 					def wsdl
-						"http://201.18.232.29/nfse/ws/recepcionarLoteRps?wsdl"
+						"https://sefazweb.camacari.ba.gov.br/nfse/ws/recepcionarLoteRps?wsdl"
 					end
 					def method_wsdl
 						:recepcionar_lote_rps
